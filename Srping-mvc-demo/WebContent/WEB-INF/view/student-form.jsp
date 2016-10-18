@@ -28,12 +28,16 @@
 				<br/><br/>
 				Favorite programming language:
 				<br/>
-				Java <form:radiobutton path="favoriteLanguage" value="Java"/>
-				PHP <form:radiobutton path="favoriteLanguage" value="PHP"/>
-				C# <form:radiobutton path="favoriteLanguage" value="C#"/>
-				C++ <form:radiobutton path="favoriteLanguage" value="C++"/>
+				<form:radiobuttons path="favoriteLanguage"
+				items="${student.favoriteLanguageOptions}"/>
 				
+				<br/><br/>
+				What Operating system do you have experience?
+				<br/>
 				
+				<form:checkboxes items="${student.favoriteOSOptions}" path="favoriteOS"/>
+				
+				<br/><br/>
 				<button type="submit">Go</button>
 				<button type="reset">Reset</button>
 				
