@@ -13,7 +13,7 @@
 		</header>
 		<br/>
 		<main>
-			<form action="processForm" method="GET">
+			<form action="processFormVersionTwo" method="GET">
 				<input type="text" placeholder=" name here please " name="studentName">
 				<button type="submit">Go</button>
 				<button type="reset">Reset</button>

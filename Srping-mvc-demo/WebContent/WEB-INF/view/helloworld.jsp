@@ -15,6 +15,9 @@
 		<main>
 			<h4>Student name: ${param.studentName}</h4>
 			
+			<br/>
+			<h4>The message: ${message}</h4>
+			
 		</main>
 		<br/>
 		<footer>

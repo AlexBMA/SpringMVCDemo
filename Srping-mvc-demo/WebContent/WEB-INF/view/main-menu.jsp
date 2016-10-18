@@ -7,7 +7,16 @@
 <title>Spring MVC Demo</title>
 </head>
 <body>
-	<h2>Spring MVC Demo</h2>
-	<a href="showForm"><button>Hello World form</button></a>
+	<div>
+		<header></header>
+		<br/>
+		<main>
+				<h2>Spring MVC Demo</h2>
+				<a href="showForm"><button>Hello World form</button></a>
+			
+		</main>
+		<br/>
+		<footer></footer>
+	</div>
 </body>
 </html>
