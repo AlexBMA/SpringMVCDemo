@@ -12,8 +12,10 @@
 		<br/>
 		<main>
 				<h2>Spring MVC Demo</h2>
-				<a href="showForm"><button>Hello World form</button></a>
-			
+				<a href="hello/showForm"><button>Hello World form</button></a>
+				<br>
+				<a href="student/showForm"><button>Student form</button></a>
+				
 		</main>
 		<br/>
 		<footer></footer>
